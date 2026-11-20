@@ -47,6 +47,10 @@ Open the `firmware` folder as a project in STM32CubeIDE. Before building, set yo
 #define AIO_KEY       "YOUR_AIO_KEY"
 ```
 
+## Debug output
+
+`printf` is redirected to USART2, which reaches the PC through the NUCLEO's ST-LINK virtual COM port. Open the port in PuTTY at 115200 baud, 8N1, to follow the Wi-Fi connection and the upload to Adafruit IO. More debug prints for the OLED, the sensor and the test flow are in `main.c`, commented out.
+
 ## Libraries
 
 The OLED driver is [stm32-ssd1306](https://github.com/afiskon/stm32-ssd1306) by Olivier Van den Eede and Aleksander Alekseev.
