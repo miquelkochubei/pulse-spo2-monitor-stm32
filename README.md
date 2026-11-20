@@ -49,10 +49,5 @@ Open the `firmware` folder as a project in STM32CubeIDE. Before building, set yo
 
 ## Libraries
 
-The OLED driver is [stm32-ssd1306](https://github.com/afiskon/stm32-ssd1306) by Olivier Van den Eede and Aleksander Alekseev. The MAX30102 driver is [stm32-max30102](https://github.com/eepj/stm32-max30102) by eepj, under the MIT license.
-
-## Team
-
-Joint project with [Evyatar Shapira](https://www.linkedin.com/in/evyatarsh/).
-
-[Michael Kochubey](https://www.linkedin.com/in/michael-kochubey-089662317/)
+The OLED driver is [stm32-ssd1306](https://github.com/afiskon/stm32-ssd1306) by Olivier Van den Eede and Aleksander Alekseev.
+The MAX30102 driver is [stm32-max30102](https://github.com/eepj/stm32-max30102) by eepj, under the MIT license.
